@@ -1,0 +1,250 @@
+*
+{
+padding:0px;
+border:0px;
+box-sizing: border-box;
+}
+body{
+    background-color:rgb(0, 0, 0);
+}
+.animi
+{
+    /* -webkit-box-reflect: below 1px linear-gradient(transparent,#0008); */
+    line-height:0.80em;
+    outline:none;
+    
+    color:#111;
+   
+    font-size:2em;
+    word-spacing: 2;
+}
+.animi span{
+    display:table-cell;
+    font-family:cursive;
+    animation:animate 2s linear infinite;
+    font-weight:normal;
+
+    
+}
+.animi:nth-child(1)
+{
+    animation-delay: 0s;
+}
+.animi:nth-child(2)
+{
+    animation-delay: 0.25s;
+}
+.animi:nth-child(3)
+{
+    animation-delay: 0.5s;
+}
+.animi:nth-child(4)
+{
+    animation-delay: 0.75s;
+}
+.animi:nth-child(5)
+{
+    animation-delay: 1s;
+}
+.animi:nth-child(6)
+{
+    animation-delay: 1.25s;
+}
+.animi:nth-child(7)
+{
+    animation-delay: 1.5s;
+}
+.animi:nth-child(8)
+{
+    animation-delay: 1.75s;
+}
+@keyframes animate
+{
+    0%,100%
+    {
+        color:greenyellow;
+        filter:blur(2px);
+        text-shadow:0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff,
+        0 0 200px #00b3ff,
+        0 0 300px #00b3ff,
+        0 0 400px #00b3ff,
+
+    }
+    5%,95%
+    {
+        color:#fff;
+        filter:blur(0px);
+
+    }
+}
+
+  
+ .social-icons .social-icon
+ {
+   padding-left: 10px;
+   padding-right: 10px;
+   color:#fff;
+   border-radius:10px;
+ }
+ .social-icon:hover
+ {
+    background: #18d26e;
+    box-shadow: 2px 25px 30px rgba(33, 192, 195, 0.4);
+ }
+ .row h3
+ {
+    color: whitesmoke;
+ }
+ .about-me .content ul i {
+    font-size: 16px;
+    margin-right: 5px;
+    color: #18d26e;
+    line-height: 0;
+ }
+ .btn:hover{
+    background-color: #51c587;
+    color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 25px 30px rgba(33, 192, 195, 0.4);
+ }
+ .skills .progress {
+    height: 60px;
+    display: block;
+    background: none;
+    border-radius: 0;
+  }
+  
+  .skills .progress .skills {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family:cursive;
+    color: #fff;
+  }
+  .skills .progress .skillss {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family:cursive;
+    color: #fff;
+  }
+  .skills .progress .skillsss {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family:cursive;
+    color: #fff;
+  }
+  .skills .progress .skillssss {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family:cursive;
+    color: #fff;
+  }
+  .skills .progress .skillst {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family:cursive;
+    color: #fff;
+  }
+  .skills .progress .skillstt {
+    padding: 10px 0;
+    margin: 0;
+    text-transform: uppercase;
+    display: block;
+    font-weight: 600;
+    font-family:cursive;
+    color: #fff;
+  }
+  .skills .progress .skill .val {
+    float: right;
+    font-style: normal;
+  }
+  
+  .skills .progress-bar-wrap {
+    background: rgba(248, 248, 248, 0.2);
+  }
+  
+  .skills .progress-bar {
+    width: 100%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #18d26e;
+  }
+  .skills .progress-barr {
+    width: 75%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #18d26e;
+  }
+  .skills .progress-barrr {
+    width: 60%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #18d26e;
+  }
+  .skills .progress-barrrr {
+    width: 100%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #18d26e;
+  }
+  .skills .progress-barrrrr {
+    width: 70%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #18d26e;
+  }
+  .skills .progress-barrrrrr {
+    width: 50%;
+    height: 10px;
+    transition: 0.9s;
+    background-color: #18d26e;
+  }
+
+ .row .col .card
+ {
+    width:90%;
+    height:60%;
+ }
+ 
+ .nav-item .nav-link:hover{
+    background-color: #51c587;
+    color: rgba(255, 255, 255, 1);
+  box-shadow: 2px 25px 30px rgba(33, 192, 195, 0.4);
+border-radius:20%;
+}
+.card{
+    border-radius: 4px;
+    background-color:black;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+      transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+  padding: 14px 80px 18px 36px;
+  cursor: pointer;
+}
+
+
+.group1-card:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 25px 30px rgba(0, 0, 0, 0.792);
+
+}
+.group2-card:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 25px 30px rgba(255, 23, 23, 0.792);
+}
